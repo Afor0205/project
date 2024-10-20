@@ -84,6 +84,6 @@ input:hover{
   width: 170px;
   margin-left: 20px;
 }
-@media screen and (max-width: 576px){
+@media all and (max-width: 480px){
   
 }
