@@ -68,3 +68,22 @@ input:hover{
 .jj{
   color: red;
 }
+.rr{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.zz{
+  border-bottom: 1px solid white;
+  width: 170px;
+  margin-right: 20px;
+}
+.ohoh{
+  border-bottom: 1px solid white;
+  width: 170px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 576px){
+  
+}
