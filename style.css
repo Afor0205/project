@@ -88,19 +88,22 @@ input:hover{
 }
 @media screen and (max-width: 576px){
   form{
-    width: 100%;
+    width: 90%;
+    margin: 0px 80px;
   }
   input{
-    width: 100%;
+    width: 90%;
   }
   .btn{
-    width: 100%;
+    width: 90%;
   }
   .rr{
-    width: 100%;
+    width: 90%;
   }
   .ww{
-    width: 100%;
+    width: 90%;
   }
-
+  .vnv{
+    width: 90%;
+  }
 }
