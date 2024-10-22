@@ -1,6 +1,7 @@
 body{
   background: black;
   color: white;
+  padding: 0px 30px;
 }
 h1{
   font-size: 50px;
@@ -48,6 +49,7 @@ input:hover{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 .qq{
   color: rgba(28, 105, 38, 0.923);
@@ -85,5 +87,20 @@ input:hover{
   margin-left: 20px;
 }
 @media screen and (max-width: 576px){
-  
+  form{
+    width: 100%;
+  }
+  input{
+    width: 100%;
+  }
+  .btn{
+    width: 100%;
+  }
+  .rr{
+    width: 100%;
+  }
+  .ww{
+    width: 100%;
+  }
+
 }
