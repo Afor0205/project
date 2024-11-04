@@ -1,0 +1,132 @@
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.cc{
+    background: rgb(7, 78, 34);
+}
+.aa{
+    color: white;
+}
+.bb{
+    color: green;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+.zz{
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+    
+}
+.dvd{
+    /* font-family: "Newsreader", serif; */
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+    margin-top: 150px;
+    /* font-family: "Charm", cursive; */
+    font-family: "Merienda", cursive;
+}
+.ok{
+   background: rgb(248, 219, 213);
+    /* height: 60px; */
+}
+.pp{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+.pop{
+    background: red;
+}
+.opp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.ac{
+    padding: 10px 30px;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.butt{
+    list-style-type: none;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.comp{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.next{
+    font-family: "Cormorant Garamond", serif;
+}
+.imgg{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+.imglogo{
+    background: white;
+    box-shadow: 0px 0px 10px 5px rgb(179, 172, 172);
+    
+}
+.otc{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+.iccons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cow{
+   /* background: red; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+}
+.pup{
+    list-style-type: none;
+    color: black;
+}
+.yyy{
+    color: black;
+    text-decoration: none;
+
+}
+.yyy:hover{
+    text-decoration: underline;
+}
