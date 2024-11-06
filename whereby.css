@@ -28,17 +28,14 @@
     
 }
 .dvd{
-    /* font-family: "Newsreader", serif; */
     font-weight: 400;
     font-size: 50px;
     color: black;
     margin-top: 150px;
-    /* font-family: "Charm", cursive; */
     font-family: "Merienda", cursive;
 }
 .ok{
    background: rgb(248, 219, 213);
-    /* height: 60px; */
 }
 .pp{
     display: flex;

@@ -20,18 +20,10 @@
     
     </head> 
     <body>
-        <ul class="nav nav-underline nav-fill" style="background: black; height: 50px;">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Spotify</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mattermark.html">Mattermark</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Whereby</a>
-            </li>
-           
-          </ul>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>This is a student project and not an attempt to clone the existing site</strong> 
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
         <nav class="navbar navbar-expand-lg  p-3 mb-2 bg-transparent text-body" style="background-color: rgba(255, 255, 255, 0); width: 100%; opacity: 1;">
             <div class="container-fluid p-3 mb-2 bg-transparent text-body">
                 <a class="navbar-brand" href="#">
@@ -42,47 +34,27 @@
               </button>
                 <div class="collapse navbar-collapse justify-content-center align-center" id="navbarNavAltMarkup">
                     <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            <strong>Products</strong>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Meetings</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Status</a>
-                                </li>    
-                            </ul>    
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                            <strong>Spotify</strong>
+                            </a>  
                         </li>
                    
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                    <strong>Pricing</strong>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="#">For meeting</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">For Embedded </a>
-                                    </li>
-                                </ul>
-                            </li>      
                             <li class="nav-item">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
-                                    <strong>Developers</strong>
+                                <a class="nav-link" href="mattermark.html">
+                                    <strong>Mattermark</strong>
                                 </a>
                             </li>      
                             <li class="nav-item">
-                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown">
-                                    <strong>Resources</strong>
+                                <a class="nav-link" href="#">
+                                    <strong>Whereby</strong>
                                 </a>
-                            </li>
+                            </li>      
                     </ul>        
                     <div class="d-grid gap-4 d-md-block">
-                        <button class="btn btn-outline-primary" type="button">Log in</button>
-                        <button class="btn btn-primary" type="button">Sign up</button>
+                        <a class="btn btn-outline-primary" href="index.html">Log in</a>
+                        <a class="btn btn-primary" href="index.html">Sign up</a>
+                        
                       </div>
                 </div>
                
@@ -198,14 +170,14 @@
             <center>
                 <div class="row">
                     <div class="col">
-                        <img class="imglogo" src="Wallpapers/preai.avif" alt="logo" width="500px"><br><br><br>
+                        <img class="imglogo" src="Wallpapers/preai.avif" alt="logo" width="500"><br><br><br>
                         <p class="imgg">
                             <b>Pre-built UI</b>
                             Integrate our user-friendly UI & adjust the functionality to your use case. Embed via an iframe or using our web component.
                         </p>
                     </div>
                     <div class="col">
-                        <img class="imglogo" src="Wallpapers/custom.png" alt="logo" width="500px"><br><br><br>
+                        <img class="imglogo" src="Wallpapers/custom.png" alt="logo" width="500"><br><br><br>
                         <p class="imgg">
                             <b>Full customization</b>
                             Take full control over the meeting UI using our Browser SDK with React hooks.
@@ -232,7 +204,7 @@
                         </p>
                     </div>
                     <div class="col">
-                        <img src="Wallpapers/another1.avif" alt="logo" width="500px" style="margin-top: 100px;">
+                        <img src="Wallpapers/another1.avif" alt="logo" width="500" style="margin-top: 100px;">
                     </div>
                 </div>
             <!-- </center> -->
@@ -251,14 +223,14 @@
             <center>
                 <div class="row">
                     <div class="col">
-                        <img class="imglogo" src="Wallpapers/www.avif" alt="logo" width="500px"><br><br><br>
+                        <img class="imglogo" src="Wallpapers/www.avif" alt="logo" width="500"><br><br><br>
                         <p class="imgg">
                             <b>Secure and Private</b>
                             Users' privacy, confidentiality and security are of the utmost importance to us. We're GDPR and HIPAA compliant, and ISO 27001 certified.
                         </p>
                     </div>
                     <div class="col">
-                        <img class="imglogo" src="Wallpapers/people.avif" alt="logo" width="500px"><br><br><br>
+                        <img class="imglogo" src="Wallpapers/people.avif" alt="logo" width="500"><br><br><br>
                         <p class="imgg">
                             <b>Reliable and Scalable</b>
                             Our infrastructure is scalable to support you as you grow with a consistently high quality video call experience.
@@ -271,14 +243,14 @@
             <center>
                 <div class="row">
                     <div class="col">
-                        <img class="imglogo" src="Wallpapers/code.avif" alt="logo" width="500px"><br><br><br>
+                        <img class="imglogo" src="Wallpapers/code.avif" alt="logo" width="500"><br><br><br>
                         <p class="imgg">
                             <b>Easy to implement</b>
                             Our best-in-class SDK and API enable you to create a truly bespoke solution with no need for unnecessary heavy lifting from your engineering team. 
                         </p>
                     </div>
                     <div class="col">
-                        <img class="imglogo" src="Wallpapers/emoji.avif" alt="logo" width="500px"><br><br><br>
+                        <img class="imglogo" src="Wallpapers/emoji.avif" alt="logo" width="500"><br><br><br>
                         <p class="imgg">
                             <b>A team that cares</b>
                             We want to help you grow! From our developer docs to our dedicated Solutions team, we're here to help.
@@ -337,7 +309,7 @@
             <center>
                 <div class="cow" style="margin-right: 20px;">
                     <div style="background: azure; padding-top: 20px;">
-                      <img src="Wallpapers/whereby2.avif" alt="logo" width="200px"><br>
+                      <img src="Wallpapers/whereby2.avif" alt="logo" width="200"><br>
                       <p class="imgg">
                         “We'd always delayed implementing a better solution, 
                         thinking it would take a lot of time. But after the research phase it was 
@@ -350,7 +322,7 @@
                       </p>
                     </div><br><br><br>
                     <div style="background: azure; padding-top: 20px;">
-                       <center><img src="Wallpapers/whereby7.avif" alt="logo" width="200px"></center><br>
+                       <center><img src="Wallpapers/whereby7.avif" alt="logo" width="200"></center><br>
                        <p class="imgg">
                             "Whereby provided a super simple, stable platform with minimal tech issues. The support team are amazing and always work with us to resolve problems.”
                             <br><br><br>
@@ -361,7 +333,7 @@
                        </p>
                     </div><br><br><br>
                     <div style="background: azure; padding-top: 20px;">
-                       <center><img src="Wallpapers/whereby6.avif" alt="logo" width="200px" style="margin-top: -15px;"></center><br>
+                       <center><img src="Wallpapers/whereby6.avif" alt="logo" width="200" style="margin-top: -15px;"></center><br>
                        <p class="imgg">
                         Whereby's tools have been a game changer for us. We can create HIPAA-compliant video rooms for every single session. It's perfectly compliant with every rule and regulation.”
                             <br><br><br>
@@ -443,10 +415,20 @@
         
 
 
-          <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong>This is a student project and not an attempt to clone the existing site</strong> 
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-          </div>
+          <nav aria-label="Page navigation example bg bg-body-success">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="mattermark.html">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="index.html">Spotify</a></li>
+              <li class="page-item"><a class="page-link" href="mattermark.html">Mattermark</a></li>
+              <li class="page-item"><a class="page-link" href="whereby.html">Whereby</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+             <h3><b>Made By: Afolabi😎</b></h3>
         
 
 
